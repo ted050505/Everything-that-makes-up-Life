@@ -4,7 +4,7 @@ class Ball {
     this.vel = createVector(random(-5, 5), random(-5, 5));
     this.acc = createVector(0,0.1);
 
-    this.w = 15;
+    this.w = 11;
   }
 
    chkEdge() {

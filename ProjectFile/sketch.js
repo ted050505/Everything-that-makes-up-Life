@@ -16,7 +16,9 @@ function draw() {
   if(toggle==0) {
     fill(4, 11, 60, 60);
   }else if(toggle==1) {
-    fill(255);
+    for(let i=0; i<255; i++) {
+      fill(255, i);
+    }
   }
   // noStroke();
   rect(0,0,width,height);
