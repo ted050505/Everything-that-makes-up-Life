@@ -13,11 +13,13 @@ function setup() {
 }
 
 function draw() {
-  if(toggle==0) {
-    fill(4, 11, 60, 60);
-  }else if(toggle==1) {
-    for(let i=0;i>255; i++) {
-      fill(255, i);
+  if(toggle_2 == 0) {
+    for(let i=0;i<255;i++) {
+      fill(200, i);
+    }
+  }else if(toggle_2==1) {
+    for(let i=0;i<255;i++) {
+      fill(0, i);
     }
   }
   noStroke();
