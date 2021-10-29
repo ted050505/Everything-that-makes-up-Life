@@ -3,10 +3,10 @@ class Ball {
     this.pos = createVector(width/2, height/2);
     this.vel = createVector(random(-5, 5), random(-5, 5));
     this.acc = createVector(0,0.1);
-    
+
     this.w = 15;
   }
-  
+
    chkEdge() {
     if(this.pos.y > height) {
       this.vel.y *= -1;
@@ -25,7 +25,7 @@ class Ball {
       this.pos.x = 0;
     }
   }
-  
+
   chk() {
     let d = dist(this.pos.x, gray_ball.pos.x, this.pos.y, gray_ball.pos.y);
     if( d >= 175 ) {
@@ -34,14 +34,14 @@ class Ball {
       this.acc.mult(-1);
     }
   }
-  
+
   update() {
     this.vel.add(this.acc);
     this.pos.add(this.vel);
-    
+
     this.acc.set(0, 0);
   }
-  
+
   display() {
     fill(5);
 	noStroke();

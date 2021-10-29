@@ -18,14 +18,9 @@ function draw() {
   }else if(toggle==1) {
     fill(255);
   }
-  noStroke();
+  // noStroke();
   rect(0,0,width,height);
   blendMode(BLEND);
-
-  for(let i = 1; i < 50; i++) {
-    let ball_d = dist(ball[i].pos.x, ball[i].pos.y, ball[i-1].pos.x, ball[i-1].pos.y)
-    print(ball_d);
-  }
 
   gray_ball.display();
 
