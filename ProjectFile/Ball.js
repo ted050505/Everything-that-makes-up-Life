@@ -30,8 +30,7 @@ class Ball {
     let d = dist(this.pos.x, gray_ball.pos.x, this.pos.y, gray_ball.pos.y);
     if( d >= 175 ) {
       fill(255);
-      textSize(15);
-      text('OH_NO', this.pos.x, this.pos.y);
+      rect(this.pos.x, this.pos.y, 15, 15);
       this.vel.mult(-1);
     }else{
       this.acc.mult(-1);
