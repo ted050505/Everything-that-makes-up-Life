@@ -31,6 +31,7 @@ class Ball {
     if( d >= 175 ) {
       fill(255);
       rect(this.pos.x, this.pos.y, 15, 15);
+      mySound.Play();
       this.vel.mult(-1);
     }else{
       this.acc.mult(-1);
