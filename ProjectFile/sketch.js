@@ -13,14 +13,10 @@ function setup() {
 }
 
 function draw() {
-  if(toggle_2 == 0) {
-    for(let i=0;i<255;i++) {
-      fill(200, i);
-    }
-  }else if(toggle_2==1) {
-    for(let i=0;i<255;i++) {
-      fill(0, i);
-    }
+  if(toggle==0) {
+    fill(4, 11, 60, 60);
+  }else if(toggle==1) {
+    fill(255);
   }
   noStroke();
   rect(0,0,width,height);
