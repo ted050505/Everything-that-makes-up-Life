@@ -16,17 +16,19 @@ function draw() {
   if(toggle==0) {
     fill(4, 11, 60, 60);
   }else if(toggle==1) {
-    fill(255);
+    for(let i=0;i>255; i++) {
+      fill(255, i);
+    }
   }
   noStroke();
   rect(0,0,width,height);
   blendMode(BLEND);
 
   gray_ball.display();
-  
+
   fill(50);
   ellipse(width/2, height/2, 30, 30);
-  
+
   for(let i = 0; i < 50; i++) {
     ball[i].chk();
     ball[i].chkEdge();
