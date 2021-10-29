@@ -16,10 +16,12 @@ class GrayBall {
     if(toggle_2 == 0) {
       for(let i=0;i>200;i++) {
         fill(i);
+        delay(10);
       }
     }else if(toggle_2==1) {
       for(let i=200;i<0;i--) {
         fill(i);
+        delay(10);
       }
     }
     noStroke();
