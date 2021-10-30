@@ -11,3 +11,9 @@ Looking at the coronavirus, which is one of the things that has the greatest imp
 Also, when looking at the relationship between art and technology, as it is said that technology is the source of art and art inspires technology, they interact with each other and constantly evolve.
 In this way, from the past, we have developed so as not to be slaughtered in the constant exchange of influences, and since it was a continuation of this, wouldn't the give-and-take relationship become the source of human life? I thought.
 So, if the organic relationship between two objects that influence each other and cannot be separated can be expressed through visual monotony, how can it be expressed simply?
+
+***
+
+## Interaction
+
+Click the mouse to change the color
