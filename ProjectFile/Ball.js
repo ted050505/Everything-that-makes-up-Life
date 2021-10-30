@@ -44,9 +44,7 @@ class Ball {
       this.pos_2.y = this.pos.y;
       rect(this.pos_2.x, this.pos_2.y, 20, 20);
 
-      for(let i=0;i<255;i++) {
-        this.colors = random(i);
-      }
+      this.colors = random(255);
       this.vel.mult(-1);
       // soundFile.setVolume(0.5);
       // soundFile.play();
