@@ -9,7 +9,7 @@ function setup() {
     ball[i] = new Ball();
   }
   gray_ball = new GrayBall();
-  background(100);
+  background(100,60);
 }
 
 // function preload(){
@@ -21,7 +21,7 @@ function draw() {
   if(toggle==0) {
     fill(4, 11, 60, 60);
   }else if(toggle==1) {
-    for(let i=0; i<255; i++) {
+    for(let i=0; i<60; i++) {
       fill(255, i);
     }
   }
