@@ -49,7 +49,7 @@ class Ball {
       this.pos_2.x = this.pos.x;
       this.pos_2.y = this.pos.y;
       for(let i=0;i<20;i+=2) {
-        this.pos_2.add(i);
+        this.pos_2.mult(i);
         rect(this.pos_2.x, this.pos_2.y, 15, 15);
       }
 
