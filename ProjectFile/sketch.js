@@ -12,6 +12,11 @@ function setup() {
   background(100);
 }
 
+// function preload(){
+//   soundFormats('ogg', 'mp3');
+//   soundFile = loadSound('../soundFile/Ball_sound.mp3');
+// }
+
 function draw() {
   if(toggle==0) {
     fill(4, 11, 60, 60);

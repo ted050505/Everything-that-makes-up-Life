@@ -32,6 +32,8 @@ class Ball {
       fill(255);
       rect(this.pos.x, this.pos.y, 15, 15);
       this.vel.mult(-1);
+      // soundFile.setVolume(0.5);
+      // soundFile.play();
     }else{
       this.acc.mult(-1);
     }
