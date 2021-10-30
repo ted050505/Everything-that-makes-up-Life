@@ -38,20 +38,11 @@ class Ball {
   chk() {
     let d = dist(this.pos.x, gray_ball.pos.x, this.pos.y, gray_ball.pos.y);
     if( d >= 175 ) {
-
       fill(random(this.colors_2));
       // fill(random(200,255));
-      // this.vel_2.x += sin(random(1,2)) * 0.1;
-      // this.vel_2.y += cos(1.2) * 0.1;
-      //
-      // this.pos_2.add(this.vel_2);
-
       this.pos_2.x = this.pos.x;
       this.pos_2.y = this.pos.y;
-      for(let i=0;i<20;i+=2) {
-        this.pos_2.mult(i);
-        rect(this.pos_2.x, this.pos_2.y, 15, 15);
-      }
+      rect(this.pos_2.x, this.pos_2.y, 20, 20);
 
       for(let i=0;i<255;i++) {
         this.colors = random(i);

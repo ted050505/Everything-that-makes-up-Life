@@ -25,9 +25,10 @@ function draw() {
       fill(255, i);
     }
   }
-  // noStroke();
+  noStroke();
   rect(0,0,width,height);
   blendMode(BLEND);
+  blur(5);
 
   gray_ball.display();
 
