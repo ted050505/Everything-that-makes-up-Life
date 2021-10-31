@@ -12,10 +12,10 @@ function setup() {
   background(100,60);
 }
 
-// function preload(){
-//   soundFormats('ogg', 'mp3');
-//   soundFile = loadSound('../soundFile/Ball_sound.mp3');
-// }
+function preload(){
+  soundFormats('ogg', 'mp3');
+  soundFile = loadSound('../soundFile/Click_sound.mp3');
+}
 
 function draw() {
   if(toggle==0) {
@@ -44,6 +44,10 @@ function draw() {
 }
 
 function mouseClicked() {
+
+  soundFile.setVolume(5);
+  soundFile.play();
+
   gray_ball.update();
   if(toggle == 0) {
     toggle = 1;

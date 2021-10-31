@@ -6,10 +6,6 @@ class Ball {
     this.colors = 5;
     this.colors_2 = [ '#69D2E7', '#27DBD8', '#50E46C', '#3386FF', '#FA69FA', '#FF4E50', '#F9D423' ];
 
-    this.size_1 = 1;
-    this.size_2 = 150;
-    this.sizeScalar = 0.95;
-
     this.w = 11;
 
     this.pos_2 = createVector(0, 0);
@@ -46,9 +42,6 @@ class Ball {
 
       this.colors = random(255);
       this.vel.mult(-1);
-
-      soundFile.setVolume(0.5);
-      soundFile.play();
     }else{
       this.acc.mult(-1);
     }
