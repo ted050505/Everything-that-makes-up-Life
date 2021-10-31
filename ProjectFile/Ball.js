@@ -46,8 +46,9 @@ class Ball {
 
       this.colors = random(255);
       this.vel.mult(-1);
-      // soundFile.setVolume(0.5);
-      // soundFile.play();
+
+      soundFile.setVolume(0.5);
+      soundFile.play();
     }else{
       this.acc.mult(-1);
     }
