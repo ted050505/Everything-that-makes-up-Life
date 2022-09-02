@@ -2,7 +2,7 @@
 
 ## 프로젝트 소개
 
-<p align="center"><img src="https://user-images.githubusercontent.com/83487028/188097447-053a82ad-c5ce-4062-9eaf-e830c1f7cb11.png" width="700px" height="370px"></img></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/83487028/188097447-053a82ad-c5ce-4062-9eaf-e830c1f7cb11.png"></img></p>
 
 <https://ted050505.github.io/Everything-that-makes-up-Life/ProjectFile>
 
